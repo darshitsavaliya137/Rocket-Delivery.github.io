@@ -74,7 +74,7 @@ html{
     padding: 3px 200px;
     justify-content: center;
     align-items: center;
-    height: 628px;
+    height: 620px;
 }
 
 #home::before{
@@ -104,6 +104,7 @@ html{
 #services{
     margin: 34px;
     display: flex;
+    margin-bottom: 0px;
 }
 
 #services-container{
@@ -256,7 +257,7 @@ footer{
     }
 
     #home{
-        height: 370px;
+        height: 353px;
         padding: 3px 28px;
     }
 
@@ -282,10 +283,20 @@ footer{
         flex-wrap: wrap;
     }
 
-    #clients img{
-        width: 66px;
+    .client-item {
+        padding: 9px;
+    }
+
+    /* #clients img{
+        height: 80px;
         padding: 6px;
-        height: auto;
+        
+    } */
+    #client img {
+        height: 80px;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+        mix-blend-mode: color-burn;
     }
 
     #contact-box form{
